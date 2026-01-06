@@ -4,6 +4,8 @@
 ![Category](https://img.shields.io/badge/Category-Computer%20Graphics-blue)
 ![Algorithm](https://img.shields.io/badge/Algorithm-Linear%20Interpolation-red)
 
+> **Canlı Demo:** 🌍 [Simülasyonu Canlı İzlemek İçin Tıklayın](https://mehmet-yagli.github.io/js-image-processing-algorithms/)
+
 Bu proje, HTML5 Canvas API kullanarak **ham piksel manipülasyonu (raw pixel manipulation)** yöntemiyle iki görüntünün farklı algoritmalarla harmanlanmasını (Alpha Blending) simüle eder. CSS filtreleri yerine, görüntüler `Uint8ClampedArray` formatında işlenerek matematiksel interpolasyon uygulanmıştır.
 
 ---
