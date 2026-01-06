@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Blending</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        margin: 0;
+        color: white;
+      }
+      canvas {
+        border: 1px solid white;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <canvas id="canvas" width="800" height="600"></canvas>
+      <p>Görsellerin zaman ve konuma göre alpha blending işlemi</p>
+    </div>
+    <script src="alpha-blending.js"></script>
+  </body>
+</html>
